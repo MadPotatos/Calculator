@@ -26,6 +26,17 @@ class MainActivity : AppCompatActivity() {
                 lastDot = true
             }
         }
+        binding.btnDelete.setOnClickListener{
+            var str = binding.tvInput.text.toString()
+           if( str.length >1){
+               str = str.substring(0, str.length - 1)
+               binding.tvInput.text = str
+           }
+            else {
+               binding.tvInput.text =""
+           }
+           }
+
         binding.btnEqual.setOnClickListener{
             if(lastNum){
                 var tvValue = binding.tvInput.text.toString()

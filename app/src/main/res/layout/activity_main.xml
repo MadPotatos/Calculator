@@ -43,9 +43,11 @@
             tools:ignore="UsingOnClickInXml" />
 
         <Button
+            android:id="@+id/btnDelete"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:text="@string/backspace"
             android:textSize="30sp"
             android:textColor="@color/retro_blue"
             android:background="@drawable/btn_background"

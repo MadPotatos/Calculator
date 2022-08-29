@@ -19,5 +19,6 @@
     <string name="equal">=</string>
     <string name="dot">.</string>
     <string name="_remain">%</string>
+    <string name="backspace">⌫</string>
 
 </resources>
